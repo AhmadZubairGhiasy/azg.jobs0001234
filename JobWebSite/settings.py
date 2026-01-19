@@ -18,8 +18,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 
 #open ai env cofig
-from decouple import config
-OPENAI_API_KEY = config('OPENAI_API_KEY')
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/
@@ -125,6 +124,7 @@ STATIC_URL = 'static/'
 
 MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR/"media"
+
 
 
 
