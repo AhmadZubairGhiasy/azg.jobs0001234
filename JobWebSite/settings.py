@@ -17,9 +17,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-#open ai env cofig
-from decouple import config
-OPENAI_API_KEY = config('OPENAI_API_KEY')
+
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/6.0/howto/deployment/checklist/
@@ -133,5 +131,6 @@ CSRF_TRUSTED_ORIGINS = ['https://azg-jobs0001234.onrender.com']
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
 
 
