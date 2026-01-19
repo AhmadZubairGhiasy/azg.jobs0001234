@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-3967h+a(vw1x_%24$mt@iqzb%6o0o+h#3nx%13y3azveewe1rk
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://azg-jobs0001234.onrender.com/']
 
 
 # Application definition
@@ -124,6 +124,7 @@ STATIC_URL = 'static/'
 
 MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR/"media"
+
 
 
 
