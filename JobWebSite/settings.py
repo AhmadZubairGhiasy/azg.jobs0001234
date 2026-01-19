@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-3967h+a(vw1x_%24$mt@iqzb%6o0o+h#3nx%13y3azveewe1rk'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+
 
 
 
@@ -125,12 +125,13 @@ MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR/"media"
 
 
-DEBUG = False
+DEBUG = True
 ALLOWED_HOSTS = ['azg-jobs0001234.onrender.com']
 CSRF_TRUSTED_ORIGINS = ['https://azg-jobs0001234.onrender.com']
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
 
 
 
